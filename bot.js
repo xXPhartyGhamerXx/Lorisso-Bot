@@ -18,10 +18,6 @@ client.on('message', message => {
 
        message.reply('pong');
      
-     else if (message.content === '14') {
-
-       message.reply('F');
-
        }
 
 });
