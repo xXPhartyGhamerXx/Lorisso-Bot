@@ -16,11 +16,11 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
 
-       message.reply('Non ti dico il tuo ping');
+       message.reply('pong!');
 
        }
  
-  if (message.content === '14') {
+  if (message.content === 'ma rip') {
 
        message.reply('NON USARE I MIEI MEME MORTALE');
 
