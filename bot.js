@@ -19,6 +19,12 @@ client.on('message', message => {
        message.reply('Non ti dico il tuo ping');
 
        }
+ 
+  if (message.content === '14') {
+
+       message.reply('NON USARE I MIEI MEME MORTALE');
+
+       }
 
 });
 
