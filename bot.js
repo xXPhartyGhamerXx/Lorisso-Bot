@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 client.on('message', (receivedMessage) => {
-  client.user.setActivity("Essere un Lorisso Bot")
 
     if (receivedMessage.author == client.user) { // Prevent bot from responding to its own messages
         return
