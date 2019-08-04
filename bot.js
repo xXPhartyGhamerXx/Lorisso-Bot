@@ -9,10 +9,6 @@ client.on('ready', () => {
 
     console.log('I am ready!');
  
- if (message.content === `${prefix}fourteen`) {
-	message.channel.send('14');
-} else if (message.content === `${prefix}f`) {
-	message.channel.send('F');
 }
  client.user.setGame('LORISSO BOT! 14 F')
 
