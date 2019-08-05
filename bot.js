@@ -7,6 +7,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
  
     console.log('I am ready!');
+ bot.user.setActivity("Ma riiipp", {type: "PLAYING"});
 
 });
 
