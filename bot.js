@@ -21,7 +21,7 @@ client.on('message', message => {
  
  if (message.content === 'lorisso.bot@info') {
 
-       message.reply('\nLorisso Bot v0.0;\n' + 'Host: Heroku;\n' + 'Creato dal grande Lorisso Malefico' + '\n Programmato in JavaScript');
+       message.reply('\nLorisso Bot v0.0;\n' + 'Host: Heroku;\n' + 'Creato dal grande Lorisso Malefico' + '\nProgrammato in JavaScript');
 
        }
  if (message.content === 'lorisso.bot@help') {
@@ -32,7 +32,7 @@ client.on('message', message => {
  
   if (message.content === 'lorisso.bot@meme') {
 
-       message.reply('\n MA RIIIPPPPPP' + '\nF' + '\nBALCONI');
+       message.reply('\nMA RIIIPPPPPP' + '\nF' + '\nBALCONI');
 
        }
 
