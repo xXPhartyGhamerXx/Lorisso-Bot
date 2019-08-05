@@ -35,6 +35,12 @@ client.on('message', message => {
        message.reply('\nMA RIIIPPPPPP' + '\nF' + '\nBALCONI');
 
        }
+ 
+ if (message.content === 'lorisso.bot@loris') {
+
+       message.reply('\nLoris essere persona BELLISSIMAH!11!');
+
+       }
 
 });
 
