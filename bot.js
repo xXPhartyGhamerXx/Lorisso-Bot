@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
  
-
+client.user.setActivity("ma riiipppp");
 client.on('message', message => {
 
     if (message.content === 'ping') {
