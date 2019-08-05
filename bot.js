@@ -45,9 +45,6 @@ client.on('message', message => {
   if (message.content === 'lorisso.bot@f') {
 
        message.reply('F');
-   
-   var generalChannel = client.channels.get("607964159035965440") // Replace with known channel ID
-    generalChannel.send("@everyone IO SONO LA PRIMA VERSIONE DEL LORISSO BOT!1!!1111 ADESSO INCHINATEVI E FATEMI I BISCOTTI QUATTORDICENNI PERVERTITIH")  
 
        }
 
