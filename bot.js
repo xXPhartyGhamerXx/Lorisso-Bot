@@ -19,6 +19,12 @@ client.on('message', message => {
        message.reply('pong');
 
        }
+ 
+ if (message.content === 'lorisso.bot@info') {
+
+       message.reply('Lorisso Bot v0.0; Host: Heroku; Creato dal grande Lorisso Malefico');
+
+       }
 
 });
 
