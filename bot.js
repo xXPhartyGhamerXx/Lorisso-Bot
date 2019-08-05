@@ -44,8 +44,12 @@ client.on('message', message => {
        }
  
   if (message.content === 'lorisso.bot@f') {
-
-       message.reply('F');
+   
+message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error);
+   
+       message.send('F');
 
        }
  
