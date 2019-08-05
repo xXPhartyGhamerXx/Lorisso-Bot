@@ -59,7 +59,7 @@ client.on('message', message => {
     // send channel a message that you're resetting bot [optional]
     channel.send('Riavviando...')
     .then(msg => client.destroy())
-    .then(() => client.login(BOT_TOKEN));
+    .then(() => client.login(<BOT_TOKEN>));
 }
 
  
