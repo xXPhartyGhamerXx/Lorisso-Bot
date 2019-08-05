@@ -22,7 +22,7 @@ client.on('message', message => {
  
  if (message.content === 'lorisso.bot@info') {
 
-       message.reply('Lorisso Bot v0.0;'\n + 'Host: Heroku;'\n + 'Creato dal grande Lorisso Malefico');
+       message.reply('Lorisso Bot v0.0;\n' + 'Host: Heroku;\n' + 'Creato dal grande Lorisso Malefico');
 
        }
 
