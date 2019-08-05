@@ -33,7 +33,7 @@ client.on('message', message => {
  
   if (message.content === 'lorisso.bot@meme') {
 
-       message.reply('\n14.' + '\n MA RIIIPPPPPP' + '\nF' + '\nBALCONI');
+       message.reply('\n MA RIIIPPPPPP' + '\nF' + '\nBALCONI');
 
        }
 
