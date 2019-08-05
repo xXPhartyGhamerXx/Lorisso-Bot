@@ -26,13 +26,13 @@ client.on('message', message => {
        }
  if (message.content === 'lorisso.bot@help') {
 
-       message.reply('Eccoti una lista dei comandi:' + '\n lorisso.bot@info (info del bot)' + '\n lorisso.bot@meme Invia dei meme del Lorisso Malefico' + '\nlorisso.bot@loris Scrive chi è Loris' + '\n Per ora il grande Lorisso Malefico è impegnato con i suoi piani malefici quindi non ha programmato altri comandi. \n CIAO!');
+       message.reply('Eccoti una lista dei comandi:' + '\n lorisso.bot@info (info del bot)' + '\n lorisso.bot@meme Invia dei meme del Lorisso Malefico \n' + 'lorisso.bot@loris Scrive chi è Loris' + '\n Per ora il grande Lorisso Malefico è impegnato con i suoi piani malefici quindi non ha programmato altri comandi. \n CIAO!');
 
        }
  
   if (message.content === 'lorisso.bot@meme') {
 
-       message.reply('\nMA RIIIPPPPPP' + '\nF' + '\nBALCONI' + '\nQuattordici');
+       message.reply('\nMA RIIIPPPPPP' + '\nF' + '\nBALCONI' + '\nQUATTORDICENNE PEDOFILO PERVERTITOH');
 
        }
  
