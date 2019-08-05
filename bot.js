@@ -5,7 +5,7 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
-client.user.setActivity("ma riiipppp");
+ 
     console.log('I am ready!');
 
 });
