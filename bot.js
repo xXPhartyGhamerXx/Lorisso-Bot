@@ -12,6 +12,11 @@ client.on('ready', () => {
 
  
 client.on('message', message => {
+ 
+  switch(message.content.toUpperCase()) {
+        case 'lorisso.bot@riavvia':
+            resetBot(message.channel);
+            break;
 
     if (message.content === 'ping') {
 
@@ -49,6 +54,13 @@ client.on('message', message => {
        }
 
 });
+ 
+ function resetBot(channel) {
+    // send channel a message that you're resetting bot [optional]
+    channel.send('Riavviando...')
+    .then(msg => client.destroy())
+    .then(() => client.login(BOT_TOKEN));
+}
 
  
 
