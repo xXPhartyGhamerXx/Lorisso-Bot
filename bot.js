@@ -41,6 +41,12 @@ client.on('message', message => {
        message.reply('\nLoris essere persona BELLISSIMAH!11!');
 
        }
+ 
+  if (message.content === 'lorisso.bot@f') {
+
+       message.send('F');
+
+       }
 
 });
 
