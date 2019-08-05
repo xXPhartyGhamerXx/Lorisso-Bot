@@ -48,6 +48,14 @@ client.on('message', message => {
        message.reply('F');
 
        }
+ 
+  if (message.content === 'lorisso.bot@cancella') {
+
+       message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error);
+       }
+
 
 });
  
