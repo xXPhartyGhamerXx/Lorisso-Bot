@@ -5,10 +5,9 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
-var loris = bot.users.get('467833079298261002');
- loris.send(moment().hour() + ';' + moment().minute() + ':' + 'Lorisso Bot acceso');
-            console.log('Ready!');
- bot.user.setActivity("test"); 
+var loris_ciao = bot.users.get('467833079298261002');
+ loris_ciao.send(moment().hour() + ';' + moment().minute() + ':' + 'Lorisso Bot acceso');
+ bot.user.setActivity('test)
 });
 
  
