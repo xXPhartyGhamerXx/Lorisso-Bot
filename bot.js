@@ -5,10 +5,10 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
- 
-    console.log('I am ready!');
-    bot.user.setActivity("thx@jasper");
-
+var loris = bot.users.get('467833079298261002');
+ loris.send(moment().hour() + ';' + moment().minute() + ':' + 'Lorisso Bot acceso');
+            console.log('Ready!');
+ bot.user.setActivity("test"); 
 });
 
  
