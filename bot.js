@@ -11,7 +11,8 @@ console.log('Pronto');
  
 client.on('message', message => {
  
-
+var memes = Math.floor(Math.random() * 7);
+ 
     if (message.content === 'ping') {
 
        message.reply('pong');
@@ -29,9 +30,34 @@ client.on('message', message => {
 
        }
  
-  if (message.content === 'lorisso.bot@meme') {
+  if (message.content === 'lorisso.bot@meme' && memes === 1) {
 
-       message.reply('\nMA RIIIPPPPPP' + '\nF' + '\nBALCONI' + '\nQUATTORDICENNE PEDOFILO PERVERTITOH');
+       message.reply('\nF');
+
+       }
+  if (message.content === 'lorisso.bot@meme' && memes === 2) {
+
+       message.reply('\nQUATTORDICENNE PEDOFILO PERVERTITOH!');
+
+       }
+  if (message.content === 'lorisso.bot@meme' && memes === 3) {
+
+       message.reply('\nBALCONE');
+
+       }
+  if (message.content === 'lorisso.bot@meme' && memes === 4) {
+
+       message.reply('\nQuattordici');
+
+       }
+ if (message.content === 'lorisso.bot@meme' && memes === 5) {
+
+       message.reply('\nFUUUCOH');
+
+       }
+ if (message.content === 'lorisso.bot@meme' && memes === 6) {
+
+       message.reply('\nOOF');
 
        }
  
@@ -42,12 +68,8 @@ client.on('message', message => {
        }
  
   if (message.content === 'lorisso.bot@f') {
-   
-message.delete()
-  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  .catch(console.error);
-   
-       message.send('F');
+    
+       message.reply('F');
 
        }
  
