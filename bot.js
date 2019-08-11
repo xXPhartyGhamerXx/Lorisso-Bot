@@ -2,13 +2,9 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const game = "F";
-
-
  
 
 client.on('ready', () => {
-     bot.user.setGame(game);
 console.log('Pronto');
  
 });
