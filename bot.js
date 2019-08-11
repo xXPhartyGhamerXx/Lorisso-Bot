@@ -4,12 +4,10 @@ const client = new Discord.Client();
 
 const game = "F";
 
-const status = "online";
 
  
 
 client.on('ready', () => {
-    bot.user.setStatus(status);
      bot.user.setGame(game);
 console.log('Pronto');
  
