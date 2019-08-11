@@ -2,10 +2,17 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
+const game = "F";
+
+const status = "online";
+
  
 
 client.on('ready', () => {
+    bot.user.setStatus(status);
+     bot.user.setGame(game);
 console.log('Pronto');
+ 
 });
 
  
@@ -67,9 +74,9 @@ var memes = Math.floor(Math.random() * 7);
 
        }
  
-  if (message.content === 'lorisso.bot@f') {
+  if (message.content === 'lorisso.bot@f' || 'f' || 'F') {
     
-       message.reply('F');
+    message.channel.sendMessage('F')
 
        }
  
