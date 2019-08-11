@@ -68,7 +68,7 @@ var memes = Math.floor(Math.random() * 7);
 
        }
  
-  if (message.content === 'lorisso.bot@f' || 'f' || 'F') {
+  if (message.content === 'lorisso.bot@f') {
     
     message.channel.sendMessage('F')
 
