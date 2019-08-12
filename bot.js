@@ -74,11 +74,6 @@ var memes = Math.floor(Math.random() * 7);
     message.channel.sendMessage('F');
 
        }
- if (message.content === 'f' || === 'F') {
-    
-    message.channel.sendMessage('F');
-
-       }
 
 
 
