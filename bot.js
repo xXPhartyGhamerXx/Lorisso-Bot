@@ -17,13 +17,13 @@ var memes = Math.floor(Math.random() * 7);
  
     if (message.content === 'ping') {
 
-       message.reply('pong');
+       message.channel.sendMessage('pong');
 
        }
  
  if (message.content === 'lorisso.bot@info') {
 
-       message.reply('\nLorisso Bot v0.0;\n' + 'Host: Heroku;\n' + 'Creato dal grande Lorisso Malefico' + '\nProgrammato in JavaScript');
+       message.reply('\nLorisso Bot v0.1;\n' + 'Host: Heroku;\n' + 'Creato dal grande Lorisso Malefico' + '\nProgrammato in JavaScript');
 
        }
  if (message.content === 'lorisso.bot@help') {
@@ -34,32 +34,32 @@ var memes = Math.floor(Math.random() * 7);
  
   if (message.content === 'lorisso.bot@meme' && memes === 1) {
 
-       message.reply('\nF');
+       message.channel.sendMessage('\nF');
 
        }
   if (message.content === 'lorisso.bot@meme' && memes === 2) {
 
-       message.reply('\nQUATTORDICENNE PEDOFILO PERVERTITOH!');
+       message.channel.sendMessage('\nQUATTORDICENNE PEDOFILO PERVERTITOH!');
 
        }
   if (message.content === 'lorisso.bot@meme' && memes === 3) {
 
-       message.reply('\nBALCONE');
+       message.channel.sendMessage('\nBALCONE');
 
        }
   if (message.content === 'lorisso.bot@meme' && memes === 4) {
 
-       message.reply('\nQuattordici');
+       message.channel.sendMessage('\nQuattordici');
 
        }
  if (message.content === 'lorisso.bot@meme' && memes === 5) {
 
-       message.reply('\nFUUUCOH');
+       message.channel.sendMessage('\nFUUUCOH');
 
        }
  if (message.content === 'lorisso.bot@meme' && memes === 6) {
 
-       message.reply('\nOOF');
+       message.channel.sendMessage('\nOOF');
 
        }
  
@@ -74,7 +74,7 @@ var memes = Math.floor(Math.random() * 7);
     message.channel.sendMessage('F');
 
        }
- if (message.content === 'f' || message.content === 'F') {
+ if (message.content === 'f' || === 'F') {
     
     message.channel.sendMessage('F');
 
