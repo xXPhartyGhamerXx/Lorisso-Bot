@@ -5,6 +5,7 @@ const client = new Discord.Client();
  
 
 client.on('ready', () => {
+ 
 console.log('Pronto');
  
 });
@@ -70,16 +71,10 @@ var memes = Math.floor(Math.random() * 7);
  
   if (message.content === 'lorisso.bot@f') {
     
-    message.channel.sendMessage('F')
+    message.channel.sendMessage('F');
 
        }
- 
-  if (message.content === 'lorisso.bot@cancella') {
 
-       message.delete()
-  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  .catch(console.error);
-       }
 
 
 });
